@@ -317,16 +317,6 @@ def cal_dis_ratio(original_image, bboxes):
 
 
 
-def definitionDetect(origin_image):
-
-
-
-def isFullColor(origin_image):
-    _h, _w, _ = origin_image.shape
-    #取中央像素点为基准
-    std = origin_image[_h/2, _w, :]
-    for()
-
 def label_to_color_image(label):
   """Adds color defined by the dataset colormap to the label.
 
