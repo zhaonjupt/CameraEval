@@ -2,7 +2,8 @@ from PIL import Image
 import tensorflow as tf
 import core.utils as utils
 import numpy as np
-import time , cv2
+import time 
+import cv2
 
 tf.reset_default_graph()
 # video_path = 0
